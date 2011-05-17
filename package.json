@@ -1,0 +1,9 @@
+{ "name"        : "fsh"
+, "description" : "Filesystem helpers - This is a library I use all over but probably needs a lot of love"
+, "tags"        : ["fs", "fileutils", "file system helpers"]
+, "repository"  : {"type": "git", "url": "git://github.com/foobarfighter/node-fsh.git"}
+, "engines"     : ["node"]
+, "author"      : "Bob Remeika"
+, "version"     : "0.0.1aplpha1"
+, "main"        : "./lib/fsh" 
+}
