@@ -8,6 +8,10 @@ before(function (){
   fixtures = pth.join(__dirname, 'fixtures');
 });
 
+it('mixes in the fs functions', function (){
+  expect(typeof fsh.realpath).to(equal, 'function');
+});
+
 describe('isFileSync', function (){
   describe('when the resource is a file', function (){
     it('returns true', function (){
