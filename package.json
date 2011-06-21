@@ -4,6 +4,6 @@
 , "repository"  : {"type": "git", "url": "git://github.com/foobarfighter/node-fsh.git"}
 , "engines"     : ["node"]
 , "author"      : "Bob Remeika"
-, "version"     : "0.0.1aplpha1"
+, "version"     : "0.0.2"
 , "main"        : "./lib/fsh" 
 }
